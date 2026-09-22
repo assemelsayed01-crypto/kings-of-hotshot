@@ -1,0 +1,887 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>KHB | Hotshot & Box Truck Lease-On and Dispatch Services | North Texas</title>
+<meta name="description" content="Kings of Hotshots & Boxtrucks (KHB) helps owner-operators lease on under our authority or get dispatched under their own MC/DOT. No forced dispatch, paid every 24 hours, CDL and Non-CDL welcome. Based in Aubrey, TX, serving the South, Midwest, and East Coast.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://www.kingsofhotshots.com/">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Kings of Hotshots & Boxtrucks">
+<meta property="og:title" content="KHB | Hotshot & Box Truck Lease-On and Dispatch Services">
+<meta property="og:description" content="Join our authority as a lease-on driver or get dispatched under your own MC/DOT. No forced dispatch, paid every 24 hours. CDL and Non-CDL welcome.">
+<meta property="og:url" content="https://www.kingsofhotshots.com/">
+<meta property="og:image" content="https://www.kingsofhotshots.com/og-image.jpg">
+<meta property="og:locale" content="en_US">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="KHB | Hotshot & Box Truck Lease-On and Dispatch Services">
+<meta name="twitter:description" content="Join our authority as a lease-on driver or get dispatched under your own MC/DOT. No forced dispatch, paid every 24 hours.">
+<meta name="twitter:image" content="https://www.kingsofhotshots.com/og-image.jpg">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "MovingCompany",
+  "name": "Kings of Hotshots & Boxtrucks",
+  "alternateName": "KHB",
+  "url": "https://www.kingsofhotshots.com/",
+  "telephone": "+1-469-868-2018",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "9053 Ike Byrom Rd",
+    "addressLocality": "Aubrey",
+    "addressRegion": "TX",
+    "postalCode": "76227",
+    "addressCountry": "US"
+  },
+  "areaServed": ["South US", "Midwest US", "Lower East Coast US"],
+  "sameAs": [
+    "https://www.tiktok.com/@kings.of.hotshots",
+    "https://www.instagram.com/kingsofhotshotsandboxtrucks",
+    "https://www.facebook.com/kingsofhotshotsandboxtrucks"
+  ],
+  "description": "Hotshot and box truck lease-on and dispatch services for owner-operators. No forced dispatch, paid every 24 hours."
+}
+</script>
+<style>
+  :root {
+    --ink: #14140f;
+    --paper: #faf8f2;
+    --panel: #ffffff;
+    --gold: #f0b429;
+    --gold-deep: #c98a12;
+    --line: #e7e2d4;
+    --muted: #6b6a5f;
+    --near-black: #16160f;
+    padding-top: env(safe-area-inset-top, 0px);
+    padding-bottom: env(safe-area-inset-bottom, 0px);
+  }
+  * { box-sizing: border-box; }
+  html { scroll-padding-top: 76px; scroll-behavior: smooth; }
+  html, body {
+    margin: 0;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  }
+  img { max-width: 100%; }
+  section { scroll-margin-top: 76px; }
+
+  .wrap { max-width: 1080px; margin: 0 auto; padding: 0 20px; }
+  .narrow { max-width: 900px; }
+
+  .eyebrow {
+    font-family: 'Archivo', sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    color: var(--gold-deep);
+    margin-bottom: 8px;
+  }
+  h1, h2, h3 { font-family: 'Archivo', sans-serif; font-weight: 800; margin: 0; }
+  .sec-pad { padding: 70px 0; }
+  .sec-pad:nth-child(even) { }
+
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    text-decoration: none;
+    padding: 14px 24px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+  }
+  .btn-primary { background: var(--gold); color: var(--near-black); }
+  .btn-primary:hover { background: #ffcb4d; }
+  .btn-ghost-dark { background: transparent; color: var(--ink); border: 1.5px solid var(--line); }
+  .btn-ghost-dark:hover { background: rgba(0,0,0,0.04); }
+  .btn-ghost-light { background: rgba(255,255,255,0.06); color: #fff; border: 1.5px solid rgba(255,255,255,0.4); }
+  .btn-ghost-light:hover { background: rgba(255,255,255,0.14); }
+
+  /* ===== NAV ===== */
+  #site-nav {
+    position: sticky;
+    top: 0;
+    z-index: 40;
+    background: rgba(22,22,15,0.92);
+    backdrop-filter: blur(10px);
+    padding-top: env(safe-area-inset-top, 0px);
+    border-bottom: 1px solid rgba(255,255,255,0.08);
+  }
+  .nav-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 12px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+  }
+  .nav-logo { display: flex; align-items: center; gap: 10px; text-decoration: none; }
+  .nav-logo img { width: 38px; height: 38px; border-radius: 8px; }
+  .nav-logo span { font-family: 'Archivo', sans-serif; font-weight: 800; color: #fff; font-size: 14px; }
+  .nav-logo span em { color: var(--gold); font-style: normal; }
+  .nav-links { display: flex; gap: 22px; }
+  .nav-links a { color: #cfcbb8; text-decoration: none; font-size: 13.5px; font-weight: 600; }
+  .nav-links a:hover { color: #fff; }
+  .nav-cta { display: flex; gap: 10px; align-items: center; }
+  .nav-cta .btn { padding: 10px 16px; font-size: 13.5px; }
+  @media (max-width: 860px) {
+    .nav-links { display: none; }
+  }
+
+  /* ===== HERO ===== */
+  .hero {
+    position: relative;
+    min-height: 92svh;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+  .hero-bg { position: absolute; inset: 0; z-index: 0; }
+  .hero-bg img { width: 100%; height: 100%; object-fit: cover; object-position: center 60%; }
+  .hero-bg::after {
+    content: "";
+    position: absolute; inset: 0;
+    background: linear-gradient(180deg, rgba(10,10,8,0.55) 0%, rgba(10,10,8,0.35) 28%, rgba(10,10,8,0.75) 68%, rgba(8,8,6,0.96) 100%);
+  }
+  .hero-content {
+    position: relative; z-index: 2; flex: 1;
+    display: flex; flex-direction: column; justify-content: flex-end;
+    max-width: 720px; margin: 0 auto; padding: 24px 24px 56px; text-align: center;
+  }
+  .hero-content h1 {
+    font-size: clamp(30px, 6vw, 52px); line-height: 1.06; color: #fff; margin: 0 0 14px;
+  }
+  .hero-content .sub { color: #e8e4d6; font-size: clamp(15px, 2.2vw, 18px); line-height: 1.5; max-width: 46ch; margin: 0 auto 26px; }
+  .stats { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; margin-bottom: 30px; }
+  .stat {
+    background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.18);
+    color: #fff; font-size: 12.5px; font-weight: 600; padding: 8px 14px; border-radius: 999px; white-space: nowrap;
+  }
+  .stat strong { color: var(--gold); font-weight: 700; }
+  .cta-row { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; }
+  @media (max-width: 480px) { .cta-row { flex-direction: column; } .cta-row .btn { width: 100%; } }
+
+  /* ===== ABOUT ===== */
+  .split { display: grid; grid-template-columns: 220px 1fr; gap: 34px; align-items: center; margin-top: 26px; }
+  .video-card {
+    position: relative; width: 220px; height: 391px; border-radius: 16px; overflow: hidden;
+    background: var(--near-black); border: 1px solid var(--line); cursor: pointer; flex-shrink: 0;
+  }
+  .video-card img, .video-card video { width: 100%; height: 100%; object-fit: cover; display: block; }
+  .play-overlay {
+    position: absolute; inset: 0; display: flex; align-items: center; justify-content: center;
+    background: linear-gradient(180deg, rgba(0,0,0,0) 50%, rgba(0,0,0,0.55) 100%); pointer-events: none;
+  }
+  .play-overlay svg { width: 50px; height: 50px; filter: drop-shadow(0 2px 6px rgba(0,0,0,0.4)); }
+  .video-card.playing .play-overlay { display: none; }
+  .video-label {
+    position: absolute; bottom: 12px; left: 12px; right: 12px; color: #fff; font-size: 12px; font-weight: 600;
+    background: rgba(0,0,0,0.4); padding: 5px 9px; border-radius: 6px; display: inline-block; width: fit-content;
+  }
+  .video-card.playing .video-label { display: none; }
+  p.body { color: var(--muted); font-size: 15.5px; line-height: 1.6; max-width: 54ch; }
+
+  .why-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; margin-top: 40px; }
+  .why-card { background: var(--near-black); border-radius: 14px; padding: 20px; color: #fff; }
+  .why-card h4 { font-family: 'Archivo', sans-serif; font-weight: 700; font-size: 15px; margin: 0 0 6px; }
+  .why-card p { color: #b3ae9a; font-size: 13px; line-height: 1.5; margin: 0; }
+  @media (max-width: 860px) { .why-grid { grid-template-columns: repeat(2, 1fr); } .split { grid-template-columns: 1fr; justify-items: center; text-align: center; } p.body { text-align: left; } }
+  @media (max-width: 480px) { .why-grid { grid-template-columns: 1fr; } }
+
+  .how-ops { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; margin-top: 40px; }
+  .how-ops div h4 { font-family: 'Archivo', sans-serif; font-weight: 700; font-size: 15px; margin: 0 0 8px; }
+  .how-ops div p { color: var(--muted); font-size: 14px; line-height: 1.55; margin: 0; }
+  @media (max-width: 720px) { .how-ops { grid-template-columns: 1fr; } }
+
+  /* ===== COMPARISON TABLE ===== */
+  #compare { background: var(--near-black); color: #fff; }
+  #compare .eyebrow { color: var(--gold); }
+  #compare h2 { color: #fff; }
+  #compare .sub { color: #cfcbb8; max-width: 62ch; margin: 14px 0 30px; font-size: 15.5px; line-height: 1.6; }
+
+  .lease-video-row {
+    display: grid; grid-template-columns: 170px 1fr; gap: 22px; align-items: center;
+    background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 14px; padding: 20px; margin-bottom: 30px;
+  }
+  .lease-video-row .video-card { width: 170px; height: 302px; }
+  .lease-video-row .perk-list { list-style: none; padding: 0; margin: 0; display: grid; gap: 7px; }
+  .lease-video-row .perk-list li { color: #e8e4d6; font-size: 13.5px; display: flex; gap: 8px; }
+  .lease-video-row .perk-list li::before { content: ""; width: 5px; height: 5px; border-radius: 50%; background: var(--gold); flex-shrink: 0; margin-top: 6px; }
+  @media (max-width: 620px) { .lease-video-row { grid-template-columns: 1fr; justify-items: center; text-align: left; } }
+
+  table.cmp { width: 100%; border-collapse: collapse; font-size: 13.5px; }
+  table.cmp th, table.cmp td { padding: 12px 14px; text-align: left; border-bottom: 1px solid rgba(255,255,255,0.1); }
+  table.cmp th { font-family: 'Archivo', sans-serif; font-weight: 700; color: var(--gold); font-size: 13px; }
+  table.cmp td:first-child { color: #9c987f; font-weight: 600; white-space: nowrap; }
+  .cmp-wrap { overflow-x: auto; border-radius: 12px; border: 1px solid rgba(255,255,255,0.1); }
+  .cmp-ctas { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-top: 22px; }
+  @media (max-width: 620px) { .cmp-ctas { grid-template-columns: 1fr; } }
+  .cmp-note { text-align: center; color: #9c987f; font-size: 13.5px; margin-top: 20px; }
+
+  /* ===== HOW TO JOIN ===== */
+  .toggle {
+    display: grid; grid-template-columns: 1fr 1fr; background: var(--panel); border: 1px solid var(--line);
+    border-radius: 999px; padding: 4px; margin: 24px 0 30px; max-width: 420px;
+  }
+  .toggle button {
+    appearance: none; border: none; background: transparent; font-family: 'Inter', sans-serif; font-weight: 600;
+    font-size: 14px; color: var(--muted); padding: 11px 10px; border-radius: 999px; cursor: pointer;
+  }
+  .toggle button.active { background: var(--ink); color: var(--paper); }
+  .join-steps { list-style: none; padding: 0; margin: 0; counter-reset: step; display: none; gap: 14px; }
+  .join-steps.active { display: grid; }
+  .join-steps li { counter-increment: step; display: flex; gap: 16px; align-items: flex-start; }
+  .join-steps li::before {
+    content: counter(step); font-family: 'Archivo', sans-serif; font-weight: 800; font-size: 15px;
+    background: var(--near-black); color: var(--gold); width: 34px; height: 34px; border-radius: 50%;
+    display: flex; align-items: center; justify-content: center; flex-shrink: 0;
+  }
+  .join-steps li div h4 { font-family: 'Archivo', sans-serif; font-weight: 700; font-size: 15px; margin: 0 0 4px; }
+  .join-steps li div p { color: var(--muted); font-size: 14px; line-height: 1.5; margin: 0; }
+  .timeline-badge {
+    display: inline-block; margin-top: 20px; background: rgba(240,180,41,0.15); color: var(--gold-deep);
+    font-weight: 700; font-size: 13px; padding: 8px 16px; border-radius: 999px;
+  }
+  .join-cta { margin-top: 26px; }
+
+  /* ===== CALCULATOR ===== */
+  #calc-card {
+    background: var(--panel); border: 1px solid var(--line); border-radius: 18px; padding: 28px; margin-top: 10px;
+  }
+  .calc-field { margin-bottom: 26px; }
+  .calc-field:last-child { margin-bottom: 0; }
+  .calc-field-top { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 10px; gap: 12px; }
+  .calc-field-label { font-weight: 600; font-size: 14.5px; }
+  .calc-field-value { font-family: 'Archivo', sans-serif; font-weight: 700; font-size: 15px; color: var(--gold-deep); white-space: nowrap; }
+  input[type="range"] { width: 100%; -webkit-appearance: none; appearance: none; height: 6px; border-radius: 999px; background: var(--line); outline: none; }
+  input[type="range"]::-webkit-slider-thumb { -webkit-appearance: none; appearance: none; width: 22px; height: 22px; border-radius: 50%; background: var(--gold); border: 3px solid var(--near-black); cursor: pointer; }
+  input[type="range"]::-moz-range-thumb { width: 16px; height: 16px; border-radius: 50%; background: var(--gold); border: 3px solid var(--near-black); cursor: pointer; }
+  .range-caps { display: flex; justify-content: space-between; font-size: 12px; color: var(--muted); margin-top: 6px; }
+  .segmented { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+  .segmented button {
+    appearance: none; border: 1px solid var(--line); background: var(--paper); color: var(--ink);
+    font-family: 'Inter', sans-serif; font-weight: 600; font-size: 14px; padding: 12px 8px; border-radius: 10px; cursor: pointer;
+  }
+  .segmented button.active { border-color: var(--gold-deep); background: rgba(240,180,41,0.14); }
+  .calc-output { margin-top: 8px; background: var(--near-black); color: var(--paper); border-radius: 16px; padding: 28px 24px; }
+  .calc-output-label { font-size: 13px; color: #c9c5b2; margin-bottom: 6px; }
+  .calc-output-number { font-family: 'Archivo', sans-serif; font-weight: 800; font-size: clamp(30px, 7vw, 44px); line-height: 1.1; color: var(--gold); }
+  .calc-output-number small { font-family: 'Inter', sans-serif; font-weight: 500; font-size: 15px; color: #c9c5b2; display: block; margin-top: 6px; }
+  .calc-breakdown { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin-top: 22px; padding-top: 20px; border-top: 1px solid #33321f; }
+  .calc-breakdown .k { font-size: 12px; color: #a8a48f; margin-bottom: 4px; }
+  .calc-breakdown .v { font-family: 'Archivo', sans-serif; font-weight: 700; font-size: 15.5px; }
+  .calc-disclaimer { font-size: 12.5px; color: var(--muted); margin: 16px 4px 0; line-height: 1.5; }
+  .calc-cta-row { margin-top: 24px; display: flex; gap: 12px; flex-wrap: wrap; }
+  .calc-cta-row .btn { flex: 1 1 200px; }
+  @media (max-width: 480px) { .calc-breakdown { grid-template-columns: 1fr 1fr; } .calc-breakdown div:last-child { grid-column: span 2; } }
+
+  /* ===== CAROUSEL ===== */
+  .rail { display: flex; gap: 16px; overflow-x: auto; overflow-y: hidden; padding: 4px 4px 18px; scroll-snap-type: x mandatory; -webkit-overflow-scrolling: touch; margin-top: 26px; }
+  .rail::-webkit-scrollbar { height: 8px; }
+  .rail::-webkit-scrollbar-thumb { background: var(--line); border-radius: 999px; }
+  .card-load { flex: 0 0 auto; width: 208px; scroll-snap-align: start; cursor: pointer; border: none; background: none; padding: 0; text-align: left; font-family: inherit; color: inherit; }
+  .thumb { position: relative; width: 208px; height: 370px; border-radius: 14px; overflow: hidden; background: var(--near-black); border: 1px solid var(--line); }
+  .thumb img { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform 0.3s ease; }
+  .card-load:hover .thumb img { transform: scale(1.04); }
+  .tag-pill { position: absolute; top: 10px; left: 10px; background: var(--gold); color: var(--near-black); font-family: 'Archivo', sans-serif; font-weight: 700; font-size: 11px; padding: 4px 9px; border-radius: 999px; }
+  .load-meta { padding: 12px 2px 0; }
+  .load-route { font-weight: 600; font-size: 13.5px; line-height: 1.35; margin-bottom: 6px; }
+  .load-stats { display: flex; gap: 8px; flex-wrap: wrap; font-size: 12.5px; color: var(--muted); }
+  .load-stats strong { color: var(--gold-deep); font-weight: 700; }
+  .rail-hint { font-size: 12.5px; color: var(--muted); margin: -6px 0 0; }
+
+  /* ===== GALLERY ===== */
+  .grid-gallery { display: grid; grid-template-columns: repeat(4, 1fr); grid-auto-rows: 140px; gap: 10px; margin-top: 26px; }
+  .tile { position: relative; border-radius: 12px; overflow: hidden; cursor: pointer; background: var(--near-black); }
+  .tile img { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform 0.35s ease; }
+  .tile:hover img { transform: scale(1.06); }
+  .tile-label { position: absolute; bottom: 0; left: 0; right: 0; padding: 20px 12px 10px; background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.75) 100%); color: #fff; font-size: 12.5px; font-weight: 600; opacity: 0; transition: opacity 0.25s ease; }
+  .tile:hover .tile-label { opacity: 1; }
+  .tile.big { grid-column: span 2; grid-row: span 2; }
+  .tile.wide { grid-column: span 2; }
+  .tile.tall { grid-row: span 2; }
+  @media (max-width: 720px) {
+    .grid-gallery { grid-template-columns: repeat(2, 1fr); grid-auto-rows: 130px; }
+    .tile.wide { grid-column: span 2; grid-row: span 1; }
+    .tile.tall { grid-row: span 1; }
+  }
+
+  /* ===== LIGHTBOX (shared) ===== */
+  .lightbox { position: fixed; inset: 0; background: rgba(10,10,8,0.92); display: none; align-items: center; justify-content: center; z-index: 60; padding: 24px; padding-top: calc(24px + env(safe-area-inset-top, 0px)); padding-bottom: calc(24px + env(safe-area-inset-bottom, 0px)); }
+  .lightbox.open { display: flex; }
+  .lightbox-inner { position: relative; max-width: 500px; width: 100%; }
+  .lightbox-inner.wide { max-width: 720px; }
+  .lightbox-media { width: 100%; aspect-ratio: 9/16; border-radius: 16px; overflow: hidden; background: #000; }
+  .lightbox-inner.wide .lightbox-media { aspect-ratio: auto; }
+  .lightbox-inner.wide .lightbox-media img { max-height: 78vh; object-fit: contain; }
+  .lightbox-media video, .lightbox-media img { width: 100%; height: 100%; object-fit: cover; display: block; }
+  .lightbox-caption { color: #f3f0e6; text-align: center; margin-top: 14px; font-size: 13.5px; line-height: 1.5; }
+  .close-btn { position: absolute; top: -44px; right: 0; background: none; border: none; color: #f3f0e6; font-size: 28px; line-height: 1; cursor: pointer; padding: 6px; }
+  .nav-btn { position: absolute; top: 50%; transform: translateY(-50%); background: rgba(255,255,255,0.1); border: 1px solid rgba(255,255,255,0.25); color: #fff; width: 42px; height: 42px; border-radius: 50%; font-size: 20px; cursor: pointer; display: flex; align-items: center; justify-content: center; }
+  .nav-prev { left: -14px; } .nav-next { right: -14px; }
+  @media (max-width: 620px) { .nav-prev { left: 4px; } .nav-next { right: 4px; } }
+
+  /* ===== FAQ ===== */
+  .faq-item { border-bottom: 1px solid var(--line); }
+  .faq-q { display: flex; justify-content: space-between; align-items: center; gap: 16px; padding: 18px 4px; cursor: pointer; }
+  .faq-q h4 { font-family: 'Archivo', sans-serif; font-weight: 700; font-size: 15px; margin: 0; }
+  .faq-q .plus { font-size: 20px; color: var(--gold-deep); font-weight: 300; flex-shrink: 0; transition: transform 0.2s ease; }
+  .faq-item.open .plus { transform: rotate(45deg); }
+  .faq-a { max-height: 0; overflow: hidden; transition: max-height 0.25s ease; }
+  .faq-item.open .faq-a { max-height: 300px; }
+  .faq-a p { color: var(--muted); font-size: 14.5px; line-height: 1.6; margin: 0 4px 18px; }
+
+  /* ===== TRUST / FOLLOW ===== */
+  .reviews-none {}
+  .verify-note { background: var(--near-black); color: #e8e4d6; border-radius: 14px; padding: 20px 22px; font-size: 14px; line-height: 1.6; margin: 30px 0; }
+  .verify-note strong { color: #fff; }
+  .follow-card { background: var(--near-black); border-radius: 16px; padding: 28px 24px; margin: 30px 0; text-align: center; }
+  .follow-card h3 { font-family: 'Archivo', sans-serif; font-weight: 700; color: #fff; font-size: 19px; margin: 0 0 8px; }
+  .follow-card p { color: #b3ae9a; font-size: 14px; margin: 0 0 22px; }
+  .follow-links { display: flex; justify-content: center; gap: 14px; flex-wrap: wrap; }
+  .follow-link { display: flex; align-items: center; gap: 9px; background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.16); color: #fff; text-decoration: none; padding: 12px 20px; border-radius: 999px; font-size: 14px; font-weight: 600; }
+  .follow-link:hover { background: var(--gold); color: var(--near-black); border-color: var(--gold); }
+  .follow-link svg { width: 18px; height: 18px; fill: currentColor; }
+
+  /* ===== FOOTER ===== */
+  footer { background: var(--near-black); color: #cfcbb8; padding: 40px 20px calc(30px + env(safe-area-inset-bottom, 0px)); margin-top: 20px; }
+  .footer-wrap { max-width: 900px; margin: 0 auto; display: flex; flex-direction: column; align-items: center; text-align: center; gap: 18px; }
+  .footer-brand { font-family: 'Archivo', sans-serif; font-weight: 800; font-size: 15px; color: #fff; }
+  .footer-brand span { color: var(--gold); }
+  .social-row { display: flex; gap: 14px; }
+  .social-row a { width: 42px; height: 42px; border-radius: 50%; background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.18); display: flex; align-items: center; justify-content: center; color: #fff; text-decoration: none; }
+  .social-row a:hover { background: var(--gold); }
+  .social-row svg { width: 19px; height: 19px; fill: currentColor; }
+  .footer-meta { font-size: 12.5px; color: #9c987f; line-height: 1.7; }
+  .footer-meta a { color: #cfcbb8; text-decoration: none; }
+
+  /* mobile sticky CTA */
+  #mobile-cta {
+    position: fixed; bottom: 0; left: 0; right: 0; z-index: 45;
+    display: none; gap: 10px; padding: 10px 14px calc(10px + env(safe-area-inset-bottom, 0px));
+    background: rgba(22,22,15,0.97); border-top: 1px solid rgba(255,255,255,0.1); backdrop-filter: blur(8px);
+  }
+  #mobile-cta .btn { flex: 1; font-size: 14px; padding: 13px 10px; }
+  @media (max-width: 720px) { #mobile-cta { display: flex; } body { padding-bottom: 64px; } }
+</style>
+</head>
+<body>
+
+<nav id="site-nav">
+  <div class="nav-inner">
+    <a href="#hero" class="nav-logo">
+      <img src="assets/97a3259aae42e36a7b2b81f260777c3b.jpg" alt="KHB">
+      <span>KINGS OF <em>HOTSHOTS</em> & BOXTRUCKS</span>
+    </a>
+    <div class="nav-links">
+      <a href="#about">About</a>
+      <a href="#compare">Lease-On / Dispatch</a>
+      <a href="#join">How to Join</a>
+      <a href="#loads">Real Loads</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#faq">FAQ</a>
+    </div>
+    <div class="nav-cta">
+      <a href="tel:+14698682018" class="btn btn-ghost-light">Call</a>
+      <a href="https://claude.ai/artifact/7QFFH6MWNrwEXyucuPauBr" target="_blank" rel="noopener" class="btn btn-primary">Apply Now</a>
+    </div>
+  </div>
+</nav>
+
+<main>
+<!-- ============ HERO ============ -->
+<section class="hero" id="hero">
+  <div class="hero-bg"><img src="assets/14b034abe2231c43a43a7d90102ed4be.jpg" alt="KHB fleet"></div>
+  <div class="hero-content">
+    <h1>Drive for a Team That's Actually Got Your Back</h1>
+    <p class="sub">Hotshot and box truck owner-operators — join our authority or run your own with our dispatch team behind you. No forced dispatch. Paid every 24 hours.</p>
+    <div class="stats">
+      <div class="stat"><strong>650+</strong> Owner-Operators</div>
+      <div class="stat">Since <strong>2017</strong></div>
+      <div class="stat"><strong>24-Hour</strong> Pay</div>
+      <div class="stat">No Forced Dispatch</div>
+    </div>
+    <div class="cta-row">
+      <a href="https://claude.ai/artifact/7QFFH6MWNrwEXyucuPauBr" target="_blank" rel="noopener" class="btn btn-primary">Apply Now</a>
+      <a href="tel:+14698682018" class="btn btn-ghost-light">Call (469) 868-2018</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ ABOUT ============ -->
+<section class="sec-pad" id="about">
+  <div class="wrap narrow">
+    <div class="eyebrow">ABOUT US</div>
+    <h2>Who Is KHB?</h2>
+    <div class="split">
+      <div class="video-card" style="cursor:default;">
+        <img src="assets/69486cdb5da048e51edb2fccb4acf78f.jpg" alt="KHB truck and trailer on the road at dusk">
+      </div>
+      <p class="body">Since 2017, Kings of Hotshots &amp; Boxtrucks has specialized in light shipments that pay well — helping over 650 owner-operators build real income through our lease-on and dispatch programs. <strong style="color:var(--ink)">Founded and operated out of North Texas by a former OTR driver</strong>, we built KHB to be the kind of company we wished we'd had on the road: honest rates, no forced dispatch, and a team that actually answers the phone.</p>
+    </div>
+
+    <div class="why-grid">
+      <div class="why-card"><h4>No Cheap Loads</h4><p>Nothing under $2.00 a mile.</p></div>
+      <div class="why-card"><h4>High Weekly Targets</h4><p>You own your equipment. Nothing is forced on you.</p></div>
+      <div class="why-card"><h4>Experienced Dispatchers</h4><p>Over 7 years of experience on hotshots and box trucks.</p></div>
+      <div class="why-card"><h4>Honesty & Integrity</h4><p>Paid 24 hours after delivery, no surprises.</p></div>
+    </div>
+
+    <div class="how-ops">
+      <div><h4>Strategic Routing</h4><p>Focused on the South, Midwest, and lower East Coast, prioritizing new pickups near your drop-off point.</p></div>
+      <div><h4>Earnings & Mileage</h4><p>Model targets $1,000/day, averaging 500 miles at $2.00–$4.00/mile — full breakdown below.</p></div>
+      <div><h4>Compliance</h4><p>Two-week running cycles, strict DOT logbook rules, payment processed 24 hours after delivery.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ COMPARISON TABLE ============ -->
+<section class="sec-pad" id="compare">
+  <div class="wrap narrow">
+    <div class="eyebrow">CHOOSE YOUR PATH</div>
+    <h2>Lease-On or Dispatch-Only — You Decide How You Run</h2>
+    <p class="sub">Here's exactly what each path looks like, side by side. Join our authority as a lease-on driver and get full support — insurance, ELD, invoicing, and fuel advances all handled for you. Already running under your own MC/DOT? Use our dispatch team to stay loaded while you stay independent. Either way: no forced dispatch, ever.</p>
+
+    <div class="cmp-wrap">
+      <table class="cmp">
+        <tr><th></th><th>Lease-On</th><th>Dispatch-Only</th></tr>
+        <tr><td>Authority (MC/DOT)</td><td>Not required — run under our authority</td><td>Required — your own active MC/DOT</td></tr>
+        <tr><td>CDL</td><td>CDL or Non-CDL welcome</td><td>CDL or Non-CDL welcome</td></tr>
+        <tr><td>Equipment</td><td>Diesel truck, &lt;150k mi, 32ft flatbed or 26ft box truck</td><td>32ft+ hotshot trailer or 26ft box truck — mileage doesn't matter</td></tr>
+        <tr><td>Insurance</td><td>Under our authority, flexible weekly/per-load payments</td><td>You carry your own commercial insurance</td></tr>
+        <tr><td>Who finds loads</td><td>Our dispatch team, no forced dispatch</td><td>Our dispatch team, no forced dispatch</td></tr>
+        <tr><td>Pay structure</td><td>You keep 75–80%</td><td>Flat 8–12% dispatch fee</td></tr>
+        <tr><td>Settlement</td><td>24 hours after delivery</td><td>24 hours after delivery</td></tr>
+        <tr><td>ELD</td><td>Provided and managed</td><td>Your own ELD</td></tr>
+        <tr><td>Invoicing/factoring</td><td>Included, zero paperwork</td><td>Available as paid add-on</td></tr>
+        <tr><td>Fuel/cash advances</td><td>Available</td><td>Not offered</td></tr>
+        <tr><td>Target weekly gross</td><td>$5,000–$7,000+</td><td>$5,000–$7,000+</td></tr>
+        <tr><td>Best for</td><td>New authority holders, full support</td><td>Established owner-ops, own authority</td></tr>
+      </table>
+    </div>
+
+    <div class="cmp-ctas">
+      <a href="#join" class="btn btn-primary" onclick="selectJoinTab('lease')">Join as a Lease-On Driver</a>
+      <a href="#join" class="btn btn-ghost-light" onclick="selectJoinTab('dispatch')">Get Dispatched Under Your Authority</a>
+    </div>
+    <p class="cmp-note">Not sure which fits you? Call us and we'll help you figure out the right path in under 5 minutes.</p>
+  </div>
+</section>
+
+<!-- ============ HOW TO JOIN ============ -->
+<section class="sec-pad" id="join">
+  <div class="wrap narrow">
+    <div class="eyebrow">GET STARTED</div>
+    <h2>How to Join KHB</h2>
+    <p class="sub" style="margin-top:10px;">Pick your path below to see exactly what to expect.</p>
+
+    <div class="toggle">
+      <button id="tab-lease-btn" class="active" onclick="selectJoinTab('lease')">Lease-On</button>
+      <button id="tab-dispatch-btn" onclick="selectJoinTab('dispatch')">Dispatch-Only</button>
+    </div>
+
+    <ol class="join-steps active" id="steps-lease">
+      <li><div><h4>Have Your Equipment Ready</h4><p>Diesel truck under 150k miles, plus a 32ft flatbed trailer or 26ft box truck.</p></div></li>
+      <li><div><h4>Submit Your Application</h4><p>Fill out our quick online form to get started.</p></div></li>
+      <li><div><h4>Get a Call From Our Team</h4><p>We'll walk you through the program and answer any questions before you commit to anything.</p></div></li>
+      <li><div><h4>Submit Primary Paperwork</h4><p>Driver's license and a driving record check.</p></div></li>
+      <li><div><h4>Finalize Your Documents</h4><p>We'll gather the rest of what's needed. Typically takes a couple of days, depending on how quickly you can pull your paperwork together.</p></div></li>
+      <li><div><h4>Receive Your ELD</h4><p>Provided and set up for you, ready to go.</p></div></li>
+      <li><div><h4>Pick Up Your First Load</h4><p>You're on the road.</p></div></li>
+    </ol>
+    <ol class="join-steps" id="steps-dispatch">
+      <li><div><h4>Have Your Equipment Ready</h4><p>32ft+ hotshot trailer or 26ft box truck. Mileage doesn't matter.</p></div></li>
+      <li><div><h4>Submit Your Application</h4><p>Fill out our quick online form to get started.</p></div></li>
+      <li><div><h4>Get a Call From Our Team</h4><p>We'll confirm details and answer any questions.</p></div></li>
+      <li><div><h4>Submit Your Documents</h4><p>W9, MC authority paperwork, proof of insurance, and factoring documents (if applicable).</p></div></li>
+      <li><div><h4>You're Ready</h4><p>Once your documents are in, we can have you dispatched and loaded the same day.</p></div></li>
+    </ol>
+
+    <span class="timeline-badge" id="timeline-badge">Typical timeline: a few days from application to your first load</span>
+    <div class="join-cta">
+      <a href="https://claude.ai/artifact/7QFFH6MWNrwEXyucuPauBr" target="_blank" rel="noopener" class="btn btn-primary" id="join-cta-btn">Start Your Lease-On Application</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CALCULATOR ============ -->
+<section class="sec-pad" id="calculator" style="background:var(--panel);">
+  <div class="wrap narrow">
+    <div class="eyebrow">SEE YOUR NUMBERS</div>
+    <h2>What Could You Take Home Each Week?</h2>
+    <p class="sub" style="margin-top:10px;">Move the sliders to match your operation. Lease-on and dispatch-only pay out differently — see both before you apply.</p>
+
+    <div class="toggle" style="margin-top:20px;">
+      <button id="calc-tab-lease" class="active">Lease-On</button>
+      <button id="calc-tab-dispatch">Dispatch-Only</button>
+    </div>
+
+    <div id="calc-card">
+      <div class="calc-field">
+        <div class="calc-field-top"><span class="calc-field-label">Miles per week</span><span class="calc-field-value" id="milesVal">2,500 mi</span></div>
+        <input type="range" id="miles" min="500" max="5000" step="50" value="2500">
+        <div class="range-caps"><span>500</span><span>5,000</span></div>
+      </div>
+      <div class="calc-field">
+        <div class="calc-field-top"><span class="calc-field-label">Rate per mile</span><span class="calc-field-value" id="rateVal">$3.00</span></div>
+        <input type="range" id="rate" min="2" max="4" step="0.05" value="3">
+        <div class="range-caps"><span>$2.00</span><span>$4.00</span></div>
+      </div>
+      <div class="calc-field">
+        <div class="calc-field-top"><span class="calc-field-label">Equipment</span></div>
+        <div class="segmented">
+          <button id="eqHotshot" class="active">Hotshot</button>
+          <button id="eqBox">Box Truck</button>
+        </div>
+      </div>
+      <div class="calc-field">
+        <div class="calc-field-top"><span class="calc-field-label">Truck fuel economy</span><span class="calc-field-value" id="mpgVal">11 mpg</span></div>
+        <input type="range" id="mpg" min="9" max="13" step="0.5" value="11">
+        <div class="range-caps"><span>9 mpg</span><span>13 mpg</span></div>
+      </div>
+      <div class="calc-field">
+        <div class="calc-field-top"><span class="calc-field-label">Diesel price per gallon</span><span class="calc-field-value" id="dieselVal">$5.90</span></div>
+        <input type="range" id="diesel" min="4.00" max="7.00" step="0.05" value="5.90">
+        <div class="range-caps"><span>$4.00</span><span>$7.00</span></div>
+        <div style="font-size:11.5px;color:var(--muted);margin-top:6px;">Default reflects the U.S. national average as of Sept 2026 — adjust for your region.</div>
+      </div>
+      <div class="calc-field">
+        <div class="calc-field-top"><span class="calc-field-label">Monthly truck insurance</span><span class="calc-field-value" id="insVal">$1,500</span></div>
+        <input type="range" id="insurance" min="1300" max="1700" step="25" value="1500">
+        <div class="range-caps"><span>$1,300</span><span>$1,700</span></div>
+      </div>
+      <div class="calc-output">
+        <div class="calc-output-label">Estimated take-home after fuel &amp; insurance</div>
+        <div class="calc-output-number" id="netOut">$0 – $0<small id="netSub">Based on your gross, our lease-on split, fuel, and insurance</small></div>
+        <div class="calc-breakdown">
+          <div><div class="k">Weekly gross</div><div class="v" id="grossOut">$0</div></div>
+          <div><div class="k">Before fuel/insurance</div><div class="v" id="beforeCostsOut">$0</div></div>
+          <div><div class="k">You keep</div><div class="v" id="keepPctOut">–</div></div>
+          <div><div class="k">Est. weekly fuel</div><div class="v" id="fuelOut">$0</div></div>
+          <div><div class="k">Weekly insurance</div><div class="v" id="insOut">$0</div></div>
+        </div>
+      </div>
+      <p class="calc-disclaimer" id="calcDisclaimer">Estimate only — actual pay depends on lane, load type, and operating costs. Call us for a personalized quote.</p>
+      <div class="calc-cta-row">
+        <a href="https://claude.ai/artifact/7QFFH6MWNrwEXyucuPauBr" target="_blank" rel="noopener" class="btn btn-primary" id="calcCta">Apply Now — Lease-On</a>
+        <a href="tel:+14698682018" class="btn btn-ghost-dark">Call Us</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ REAL LOADS ============ -->
+<section class="sec-pad" id="loads">
+  <div class="wrap">
+    <div class="eyebrow">WHAT WE MOVE</div>
+    <h2>Real Loads, Real Numbers</h2>
+    <p class="sub" style="margin-top:10px;">We post real freight and real pay — no guessing what you'll actually make. Tap any load to watch the full walkthrough.</p>
+    <div class="rail" id="loads-rail"></div>
+    <p class="rail-hint">Swipe or scroll to see more loads →</p>
+  </div>
+</section>
+
+<!-- ============ GALLERY ============ -->
+<section class="sec-pad" id="gallery" style="background:var(--panel);">
+  <div class="wrap">
+    <div class="eyebrow">THE WORK WE MOVE</div>
+    <h2>Generators, Farm Equipment, Steel, Medical Freight</h2>
+    <p class="sub" style="margin-top:10px;">If it fits on a hotshot or box truck, we've hauled it. No cheap loads, no filler miles.</p>
+    <div class="grid-gallery" id="gallery-grid"></div>
+  </div>
+</section>
+
+<!-- ============ FAQ ============ -->
+<section class="sec-pad narrow-sec" id="faq">
+  <div class="wrap narrow">
+    <div class="eyebrow">FAQS</div>
+    <h2>Common Questions</h2>
+    <p class="sub" style="margin-top:10px;">Here are answers to what we get asked most. Have something else? Call us directly.</p>
+    <div id="faq-list" style="margin-top:20px;"></div>
+  </div>
+</section>
+
+<!-- ============ TRUST & FOLLOW ============ -->
+<section class="sec-pad">
+  <div class="wrap narrow">
+    <div class="eyebrow">TRUST &amp; COMPLIANCE</div>
+    <h2>Built to Be Verified</h2>
+    <p class="body" style="margin-top:14px;">KHB operates under an active, verified motor carrier authority in good standing with the FMCSA. Our lease agreements follow federal truth-in-leasing requirements, so you always know exactly what you're signing — no surprises, no fine print games.</p>
+    <a href="#" class="btn btn-primary">Verify Our Authority →</a>
+
+    <div class="follow-card">
+      <h3>Follow the Work</h3>
+      <p>Real loads, real numbers, posted regularly. This is where most owner-operators find us first.</p>
+      <div class="follow-links">
+        <a href="https://www.tiktok.com/@kings.of.hotshots" target="_blank" rel="noopener" class="follow-link"><svg viewBox="0 0 24 24"><path d="M16.6 5.82s.51.5 0 0A4.278 4.278 0 0 1 15.54 3h-3.09v12.4a2.592 2.592 0 0 1-2.59 2.5c-1.42 0-2.6-1.16-2.6-2.6 0-1.72 1.66-3.01 3.37-2.48V9.66c-3.45-.46-6.47 2.22-6.47 5.64 0 3.33 2.76 5.7 5.69 5.7 3.14 0 5.69-2.55 5.69-5.7V9.01a7.35 7.35 0 0 0 4.3 1.38V7.3s-1.88.09-3.24-1.48z"/></svg><span>TikTok</span></a>
+        <a href="https://www.instagram.com/kingsofhotshotsandboxtrucks" target="_blank" rel="noopener" class="follow-link"><svg viewBox="0 0 24 24"><path d="M12 2.16c3.2 0 3.58.01 4.85.07 3.25.15 4.77 1.69 4.92 4.92.06 1.27.07 1.65.07 4.85s-.01 3.58-.07 4.85c-.15 3.23-1.66 4.77-4.92 4.92-1.27.06-1.64.07-4.85.07s-3.58-.01-4.85-.07c-3.26-.15-4.77-1.7-4.92-4.92-.06-1.27-.07-1.65-.07-4.85s.01-3.58.07-4.85c.15-3.23 1.66-4.77 4.92-4.92 1.27-.06 1.65-.07 4.85-.07zM12 0C8.74 0 8.33.01 7.05.07c-4.35.2-6.78 2.62-6.98 6.98C.01 8.33 0 8.74 0 12s.01 3.67.07 4.95c.2 4.36 2.62 6.78 6.98 6.98C8.33 23.99 8.74 24 12 24s3.67-.01 4.95-.07c4.35-.2 6.78-2.62 6.98-6.98.06-1.28.07-1.69.07-4.95s-.01-3.67-.07-4.95c-.2-4.35-2.62-6.78-6.98-6.98C15.67.01 15.26 0 12 0zm0 5.84A6.16 6.16 0 1 0 18.16 12 6.16 6.16 0 0 0 12 5.84zM12 16a4 4 0 1 1 4-4 4 4 0 0 1-4 4zm6.41-10.85a1.44 1.44 0 1 0 1.44 1.44 1.44 1.44 0 0 0-1.44-1.44z"/></svg><span>Instagram</span></a>
+        <a href="https://www.facebook.com/kingsofhotshotsandboxtrucks" target="_blank" rel="noopener" class="follow-link"><svg viewBox="0 0 24 24"><path d="M22 12a10 10 0 1 0-11.56 9.88v-6.99H7.9V12h2.54V9.8c0-2.5 1.49-3.89 3.77-3.89 1.09 0 2.23.2 2.23.2v2.45h-1.26c-1.24 0-1.63.77-1.63 1.56V12h2.77l-.44 2.89h-2.33v6.99A10 10 0 0 0 22 12z"/></svg><span>Facebook</span></a>
+      </div>
+    </div>
+
+    <div class="verify-note"><strong>How to know you're really talking to us:</strong> We'll never ask you to send money to join, and we'll always call from (469) 868-2018. If a message, call, or page claiming to be KHB feels off, don't act on it — call us directly to confirm before sharing any info or paperwork.</div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="footer-wrap">
+    <div class="footer-brand">KINGS OF <span>HOTSHOTS</span> &amp; BOXTRUCKS</div>
+    <div class="social-row">
+      <a href="https://www.tiktok.com/@kings.of.hotshots" target="_blank" rel="noopener" aria-label="TikTok"><svg viewBox="0 0 24 24"><path d="M16.6 5.82s.51.5 0 0A4.278 4.278 0 0 1 15.54 3h-3.09v12.4a2.592 2.592 0 0 1-2.59 2.5c-1.42 0-2.6-1.16-2.6-2.6 0-1.72 1.66-3.01 3.37-2.48V9.66c-3.45-.46-6.47 2.22-6.47 5.64 0 3.33 2.76 5.7 5.69 5.7 3.14 0 5.69-2.55 5.69-5.7V9.01a7.35 7.35 0 0 0 4.3 1.38V7.3s-1.88.09-3.24-1.48z"/></svg></a>
+      <a href="https://www.instagram.com/kingsofhotshotsandboxtrucks" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24"><path d="M12 2.16c3.2 0 3.58.01 4.85.07 3.25.15 4.77 1.69 4.92 4.92.06 1.27.07 1.65.07 4.85s-.01 3.58-.07 4.85c-.15 3.23-1.66 4.77-4.92 4.92-1.27.06-1.64.07-4.85.07s-3.58-.01-4.85-.07c-3.26-.15-4.77-1.7-4.92-4.92-.06-1.27-.07-1.65-.07-4.85s.01-3.58.07-4.85c.15-3.23 1.66-4.77 4.92-4.92 1.27-.06 1.65-.07 4.85-.07zM12 0C8.74 0 8.33.01 7.05.07c-4.35.2-6.78 2.62-6.98 6.98C.01 8.33 0 8.74 0 12s.01 3.67.07 4.95c.2 4.36 2.62 6.78 6.98 6.98C8.33 23.99 8.74 24 12 24s3.67-.01 4.95-.07c4.35-.2 6.78-2.62 6.98-6.98.06-1.28.07-1.69.07-4.95s-.01-3.67-.07-4.95c-.2-4.35-2.62-6.78-6.98-6.98C15.67.01 15.26 0 12 0zm0 5.84A6.16 6.16 0 1 0 18.16 12 6.16 6.16 0 0 0 12 5.84zM12 16a4 4 0 1 1 4-4 4 4 0 0 1-4 4zm6.41-10.85a1.44 1.44 0 1 0 1.44 1.44 1.44 1.44 0 0 0-1.44-1.44z"/></svg></a>
+      <a href="https://www.facebook.com/kingsofhotshotsandboxtrucks" target="_blank" rel="noopener" aria-label="Facebook"><svg viewBox="0 0 24 24"><path d="M22 12a10 10 0 1 0-11.56 9.88v-6.99H7.9V12h2.54V9.8c0-2.5 1.49-3.89 3.77-3.89 1.09 0 2.23.2 2.23.2v2.45h-1.26c-1.24 0-1.63.77-1.63 1.56V12h2.77l-.44 2.89h-2.33v6.99A10 10 0 0 0 22 12z"/></svg></a>
+    </div>
+    <div class="footer-meta">
+      9053 Ike Byrom Rd, Aubrey, TX 76227<br>
+      <a href="tel:+14698682018">(469) 868-2018</a> · <a href="mailto:info@kingsofhotshots.com">info@kingsofhotshots.com</a><br>
+      © 2026 Kings of Hotshots &amp; Boxtrucks
+    </div>
+  </div>
+</footer>
+
+<div id="mobile-cta">
+  <a href="tel:+14698682018" class="btn btn-ghost-light">Call</a>
+  <a href="https://claude.ai/artifact/7QFFH6MWNrwEXyucuPauBr" target="_blank" rel="noopener" class="btn btn-primary">Apply Now</a>
+</div>
+
+<!-- Shared lightbox -->
+<div class="lightbox" id="lightbox">
+  <div class="lightbox-inner" id="lightboxInner">
+    <button class="close-btn" id="closeBtn" aria-label="Close">&times;</button>
+    <button class="nav-btn nav-prev" id="prevBtn" aria-label="Previous" style="display:none;">&larr;</button>
+    <button class="nav-btn nav-next" id="nextBtn" aria-label="Next" style="display:none;">&rarr;</button>
+    <div class="lightbox-media" id="lightboxMedia"></div>
+    <div class="lightbox-caption" id="lightboxCaption"></div>
+  </div>
+</div>
+
+<script>
+  /* ===== Founder video click-to-play ===== */
+  /* Founder videos removed from About and Compare sections per feedback — kept only in the Real Loads carousel and social channels. */
+
+  /* ===== How to Join toggle ===== */
+  function selectJoinTab(which) {
+    const isLease = which === 'lease';
+    document.getElementById('tab-lease-btn').classList.toggle('active', isLease);
+    document.getElementById('tab-dispatch-btn').classList.toggle('active', !isLease);
+    document.getElementById('steps-lease').classList.toggle('active', isLease);
+    document.getElementById('steps-dispatch').classList.toggle('active', !isLease);
+    document.getElementById('timeline-badge').textContent = isLease
+      ? 'Typical timeline: a few days from application to your first load'
+      : 'Typical timeline: 1–2 hours from submitting documents to your first load';
+    document.getElementById('join-cta-btn').textContent = isLease ? 'Start Your Lease-On Application' : 'Start Dispatch Setup';
+  }
+  document.getElementById('tab-lease-btn').addEventListener('click', () => selectJoinTab('lease'));
+  document.getElementById('tab-dispatch-btn').addEventListener('click', () => selectJoinTab('dispatch'));
+
+  /* ===== Calculator ===== */
+  (function() {
+    const milesEl = document.getElementById('miles');
+    const rateEl = document.getElementById('rate');
+    const mpgEl = document.getElementById('mpg');
+    const dieselEl = document.getElementById('diesel');
+    const insuranceEl = document.getElementById('insurance');
+    const milesVal = document.getElementById('milesVal');
+    const rateVal = document.getElementById('rateVal');
+    const mpgVal = document.getElementById('mpgVal');
+    const dieselVal = document.getElementById('dieselVal');
+    const insVal = document.getElementById('insVal');
+    const tabLease = document.getElementById('calc-tab-lease');
+    const tabDispatch = document.getElementById('calc-tab-dispatch');
+    const eqHotshot = document.getElementById('eqHotshot');
+    const eqBox = document.getElementById('eqBox');
+    const grossOut = document.getElementById('grossOut');
+    const beforeCostsOut = document.getElementById('beforeCostsOut');
+    const keepPctOut = document.getElementById('keepPctOut');
+    const fuelOut = document.getElementById('fuelOut');
+    const insOut = document.getElementById('insOut');
+    const netOut = document.getElementById('netOut');
+    const disclaimerText = document.getElementById('calcDisclaimer');
+    const calcCta = document.getElementById('calcCta');
+    let path = 'lease';
+    const fmt = n => '$' + Math.round(n).toLocaleString('en-US');
+
+    function setPath(p) {
+      path = p;
+      const isLease = p === 'lease';
+      tabLease.classList.toggle('active', isLease);
+      tabDispatch.classList.toggle('active', !isLease);
+      calcCta.textContent = isLease ? 'Apply Now — Lease-On' : 'Apply Now — Dispatch-Only';
+      calc();
+    }
+    function calc() {
+      const miles = parseFloat(milesEl.value);
+      const rate = parseFloat(rateEl.value);
+      const mpg = parseFloat(mpgEl.value);
+      const diesel = parseFloat(dieselEl.value);
+      const insuranceMonthly = parseFloat(insuranceEl.value);
+
+      milesVal.textContent = miles.toLocaleString('en-US') + ' mi';
+      rateVal.textContent = '$' + rate.toFixed(2);
+      mpgVal.textContent = mpg + ' mpg';
+      dieselVal.textContent = '$' + diesel.toFixed(2);
+      insVal.textContent = '$' + insuranceMonthly.toLocaleString('en-US');
+
+      const gross = miles * rate;
+      const fuelCost = (miles / mpg) * diesel;
+      const insuranceWeekly = insuranceMonthly / 4.33;
+
+      grossOut.textContent = fmt(gross);
+      fuelOut.textContent = fmt(fuelCost);
+      insOut.textContent = fmt(insuranceWeekly);
+
+      let beforeLow, beforeHigh, keepLabel, splitLabel;
+      if (path === 'lease') {
+        beforeLow = gross * 0.75; beforeHigh = gross * 0.80;
+        keepLabel = '75–80%';
+        disclaimerText.textContent = 'Estimate only — your exact split depends on equipment and operation type. Fuel cost uses the diesel price and mpg you set above; insurance reflects KHB\u2019s typical range, deducted weekly. Call us for a personalized quote.';
+      } else {
+        beforeLow = gross * 0.88; beforeHigh = gross * 0.92;
+        keepLabel = '88–92%';
+        disclaimerText.textContent = 'Estimate only — you carry your own authority, insurance, and equipment costs. Insurance range shown reflects typical owner-operator policies. Call us for a personalized quote.';
+      }
+      beforeCostsOut.textContent = fmt(beforeLow) + ' – ' + fmt(beforeHigh);
+      keepPctOut.textContent = keepLabel;
+
+      const netLow = beforeLow - fuelCost - insuranceWeekly;
+      const netHigh = beforeHigh - fuelCost - insuranceWeekly;
+      const subLabel = path === 'lease' ? 'Based on your gross, our lease-on split, fuel, and insurance' : 'Based on your gross, our dispatch fee, fuel, and insurance';
+      netOut.innerHTML = fmt(Math.max(0, netLow)) + ' – ' + fmt(Math.max(0, netHigh)) + '<small>' + subLabel + '</small>';
+    }
+    milesEl.addEventListener('input', calc);
+    rateEl.addEventListener('input', calc);
+    mpgEl.addEventListener('input', calc);
+    dieselEl.addEventListener('input', calc);
+    insuranceEl.addEventListener('input', calc);
+    tabLease.addEventListener('click', () => setPath('lease'));
+    tabDispatch.addEventListener('click', () => setPath('dispatch'));
+    eqHotshot.addEventListener('click', () => { eqHotshot.classList.add('active'); eqBox.classList.remove('active'); calc(); });
+    eqBox.addEventListener('click', () => { eqBox.classList.add('active'); eqHotshot.classList.remove('active'); calc(); });
+    calc();
+  })();
+
+  /* ===== Shared lightbox ===== */
+  const lightbox = document.getElementById('lightbox');
+  const lightboxInner = document.getElementById('lightboxInner');
+  const lightboxMedia = document.getElementById('lightboxMedia');
+  const lightboxCaption = document.getElementById('lightboxCaption');
+  const prevBtn = document.getElementById('prevBtn');
+  const nextBtn = document.getElementById('nextBtn');
+  document.getElementById('closeBtn').addEventListener('click', closeLightbox);
+  lightbox.addEventListener('click', (e) => { if (e.target === lightbox) closeLightbox(); });
+  function closeLightbox() { lightbox.classList.remove('open'); lightboxMedia.innerHTML = ''; }
+
+  /* ---- Real Loads carousel ---- */
+  const loads = [
+    { tag: "Hotshot", poster: "assets/e0e9d77333aa101f09de027ac7138e62.jpg", video: "assets/ce77ccb589364931e2e19e7d11f59a9c.mp4", route: "Lexington, SC → Sayreville, NJ", cargo: "Generator (Aggreko)", stats: [["705","mi"],["$4.25","/mi"]] },
+    { tag: "Hotshot", poster: "assets/db10bc1b7d326ac2298758bd2838228f.jpg", video: null, route: "Industrial Air Fans", cargo: "Flatbed hotshot", stats: [["$1,800","total pay"]] },
+    { tag: "Flatbed", poster: "assets/1c6822a8ff7aaf84ba8fb0dae46faff5.jpg", video: null, route: "Steel Pipe Fittings", cargo: "Straight-through load", stats: [["7.5","hrs"],["flat ground",""]] },
+    { tag: "Box Truck", poster: "assets/273395762247b2235a7c7883da9a6f5d.jpg", video: "assets/9def66028ba413cac16bf75845bfe723.mp4", route: "Medical Freight Delivery", cargo: "Howard Medical", stats: [["654","mi"],["$2,350","total pay"]] },
+    { tag: "Non-CDL Hotshot", poster: "assets/4a0f5df50aee79db429314016f504cdf.jpg", video: null, route: "~4,000 lb Flatbed Load", cargo: "No CDL required", stats: [["10","hr drive"]] },
+    { tag: "Hotshot", poster: "assets/21ba24019f9a3be745d3d1a146a1863d.jpg", video: null, route: "840-Mile Equipment Haul", cargo: "13,600 lbs", stats: [["$4,000","total"],["~$5.00","/mi"]] },
+    { tag: "Non-CDL Hotshot", poster: "assets/1fc5d8432831b75856bb906ff9118ba0.jpg", video: null, route: "Virginia → Pennsylvania", cargo: "Tank load", stats: [["406","mi"]] }
+  ];
+  function statHtml(stats) { return stats.map(([v,l]) => `<span><strong>${v}</strong> ${l}</span>`).join(''); }
+  const loadsRail = document.getElementById('loads-rail');
+  loads.forEach((load, i) => {
+    const card = document.createElement('button');
+    card.className = 'card-load';
+    card.innerHTML = `<div class="thumb"><span class="tag-pill">${load.tag}</span><img src="${load.poster}" alt="${load.route}" loading="lazy"><div class="play-overlay"><svg viewBox="0 0 24 24" fill="white"><circle cx="12" cy="12" r="11" fill="rgba(0,0,0,0.35)"/><path d="M10 8l6 4-6 4V8z" fill="white"/></svg></div></div><div class="load-meta"><div class="load-route">${load.route}</div><div class="load-stats">${statHtml(load.stats)}</div></div>`;
+    card.addEventListener('click', () => openLoadLightbox(i));
+    loadsRail.appendChild(card);
+  });
+  function openLoadLightbox(i) {
+    const load = loads[i];
+    lightboxInner.classList.remove('wide');
+    lightboxMedia.innerHTML = '';
+    if (load.video) {
+      const v = document.createElement('video'); v.src = load.video; v.controls = true; v.autoplay = true; v.playsInline = true;
+      lightboxMedia.appendChild(v);
+    } else {
+      const img = document.createElement('img'); img.src = load.poster; lightboxMedia.appendChild(img);
+    }
+    lightboxCaption.innerHTML = `<div style="font-weight:600;color:#f3f0e6;">${load.cargo} · ${load.route}</div><div style="margin-top:6px;color:#b3ae9a;">${statHtml(load.stats)}</div>`;
+    prevBtn.style.display = 'none'; nextBtn.style.display = 'none';
+    lightbox.classList.add('open');
+  }
+
+  /* ---- Gallery ---- */
+  const photos = [
+    { src: "assets/9dbcefaed78299ba4b532661538bbbcb.jpg", caption: "John Deere Gators — flatbed hotshot", size: "big" },
+    { src: "assets/a582b29e282eaa71f94ffb71a6479751.jpg", caption: "AIRMAN compressors — gooseneck flatbed", size: "wide" },
+    { src: "assets/f0713756f3af96b2b7f6e84a7939d88b.jpg", caption: "Hay bales — flatbed hotshot", size: "" },
+    { src: "assets/50d1caf9df6681e4cd2fa629d359a6df.jpg", caption: "Galvanized pipe — flatbed hotshot", size: "tall" },
+    { src: "assets/96a6f2dd5e7a3f30ff1756d9a9a2546b.jpg", caption: "Box truck run — dispatch-only driver", size: "" },
+    { src: "assets/dc9729dabfe6179b05289bd87b1d213b.jpg", caption: "Ag sprayer rigs — gooseneck flatbed", size: "wide" },
+    { src: "assets/ffad549fe16737125b78d54bc1a93f35.jpg", caption: "Industrial plant delivery", size: "" },
+    { src: "assets/69486cdb5da048e51edb2fccb4acf78f.jpg", caption: "Low-boy run at dusk", size: "" },
+    { src: "assets/047c7b6da3bf32a3b37266fa0f33e294.jpg", caption: "Mountain run, Utah", size: "tall" }
+  ];
+  const galleryGrid = document.getElementById('gallery-grid');
+  let galleryCurrent = 0;
+  photos.forEach((p, i) => {
+    const tile = document.createElement('div');
+    tile.className = 'tile' + (p.size ? ' ' + p.size : '');
+    tile.innerHTML = `<img src="${p.src}" alt="${p.caption}" loading="lazy"><div class="tile-label">${p.caption}</div>`;
+    tile.addEventListener('click', () => openGalleryLightbox(i));
+    galleryGrid.appendChild(tile);
+  });
+  function openGalleryLightbox(i) {
+    galleryCurrent = i;
+    lightboxInner.classList.add('wide');
+    renderGallery();
+    prevBtn.style.display = 'flex'; nextBtn.style.display = 'flex';
+    lightbox.classList.add('open');
+  }
+  function renderGallery() {
+    lightboxMedia.innerHTML = `<img src="${photos[galleryCurrent].src}" alt="">`;
+    lightboxCaption.textContent = photos[galleryCurrent].caption;
+  }
+  prevBtn.addEventListener('click', () => { galleryCurrent = (galleryCurrent - 1 + photos.length) % photos.length; renderGallery(); });
+  nextBtn.addEventListener('click', () => { galleryCurrent = (galleryCurrent + 1) % photos.length; renderGallery(); });
+  document.addEventListener('keydown', (e) => {
+    if (!lightbox.classList.contains('open') || !lightboxInner.classList.contains('wide')) return;
+    if (e.key === 'Escape') closeLightbox();
+    if (e.key === 'ArrowLeft') { galleryCurrent = (galleryCurrent - 1 + photos.length) % photos.length; renderGallery(); }
+    if (e.key === 'ArrowRight') { galleryCurrent = (galleryCurrent + 1) % photos.length; renderGallery(); }
+  });
+
+  /* ---- FAQ ---- */
+  const faqs = [
+    { q: "Can I have someone with me driving?", a: "Yes — but they need to submit their info and pass a background check, since some of the facilities we load at require it. Running as a team gets you there faster and results in higher pay." },
+    { q: "What routes do you take? Do you have dedicated routes?", a: "We're an on-the-road operation focused on the South, Midwest, and lower East Coast. Most runs are two-week cycles, though you're welcome to stay out longer. We don't run fixed dedicated routes." },
+    { q: "What's the pay, and how am I paid?", a: "Pay is per loaded mile — the minimum we run at is $2.00/mile. Lease-on drivers keep 75–80% of each load. Dispatch-only clients pay a flat 8–12% dispatch fee. You're paid 24 hours after delivery, once the load is funded, via Zelle, ACH, or wire. Fuel and cash advances are available for lease-on drivers." },
+    { q: "Do I need a CDL?", a: "No — CDL and Non-CDL drivers are both welcome on either program." },
+    { q: "Do I need an ELD or electronic logbook?", a: "Yes. Every truck running with us tracks hours and stays under 14 hours a day (DOT law). Lease-on drivers get an ELD provided and managed; dispatch-only clients run their own." },
+    { q: "What kind of insurance do I need?", a: "Lease-on drivers run under our authority's insurance, deducted weekly or per load, never as a lump sum. Dispatch-only clients carry their own commercial insurance under their own authority." },
+    { q: "Can I run on weekends?", a: "Only if you can pick up Friday morning and deliver by Monday morning — most facilities aren't open to load or unload otherwise." }
+  ];
+  const faqList = document.getElementById('faq-list');
+  faqs.forEach((item) => {
+    const div = document.createElement('div');
+    div.className = 'faq-item';
+    div.innerHTML = `<div class="faq-q"><h4>${item.q}</h4><span class="plus">+</span></div><div class="faq-a"><p>${item.a}</p></div>`;
+    div.querySelector('.faq-q').addEventListener('click', () => div.classList.toggle('open'));
+    faqList.appendChild(div);
+  });
+</script>
+</body>
+</html>
